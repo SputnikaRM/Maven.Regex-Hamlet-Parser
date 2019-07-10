@@ -54,7 +54,7 @@ public class HamletParserTest {
             count=  mhoratio.groupCount();
         }
         hamletParser.ChangeHoratioToTariq();
-       
+
 
         String Tariq = "Tariq";
         Pattern tariq = Pattern.compile(Tariq,Pattern.CASE_INSENSITIVE);
