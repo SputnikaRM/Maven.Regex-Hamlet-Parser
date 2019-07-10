@@ -36,4 +36,8 @@ public class HamletParser {
         return hamletData;
     }
 
+    public Boolean FindHamlet(){
+
+        return true;}
+
 }
