@@ -40,4 +40,13 @@ public class HamletParser {
 
         return true;}
 
+    public Boolean FindHoratio() {
+        return true;
+    }
+
+    public void ChangeHamletToLeon() {
+    }
+
+    public void ChangeHoratioToTariq() {
+    }
 }
