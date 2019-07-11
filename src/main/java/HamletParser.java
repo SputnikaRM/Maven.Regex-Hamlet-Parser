@@ -38,6 +38,12 @@ public class HamletParser {
         return hamletData;
     }
 
+//    public static void main(String[] args) {
+//
+//        System.out.println(hamletParser.ChangeHamletToLeon());
+//
+//    }
+
     public Boolean FindHamlet(){
         Integer count =0;
         String Hamlet = "Hamlet";
@@ -69,6 +75,7 @@ public class HamletParser {
 
     public void ChangeHamletToLeon() {
         Pattern.compile("Hamlet").matcher(getHamletData()).replaceAll("Leon");
+
     }
 
     public void ChangeHoratioToTariq() {
